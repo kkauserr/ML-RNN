@@ -10,21 +10,19 @@ Input data: coin_Bitcoin.csv
 
 Features used:
 
-High
-
-Low
-
-Open
+- High
+- Low
+- Open
 
 Target variable:
 
-Close
+- Close
 
 Goal: Train an RNN-based model to predict the closing price
 
 Evaluation metric:
 
-R² score (must be stored in a variable named r2score)
+- R² score (must be stored in a variable named r2score)
 
 This is strictly a regression problem — not classification.
 
@@ -58,8 +56,6 @@ The final model is under ~120 lines of core logic.
 ├── coin_Bitcoin.csv    # dataset (provided in Gradescope environment)
 └── README.md           # project documentation
 
-
-Note: On Gradescope the dataset is already located at ./coin_Bitcoin.csv.
 
 🛠️ Tech & Dependencies
 
@@ -101,15 +97,6 @@ Runtime must complete in under 10 minutes
 
 The lab is designed to be simple & readable — not over-engineered
 
-📌 Notes
-
-This assignment intentionally avoids GPU use
-
-Hyperparameter tuning is expected
-
-Data preprocessing is done using numpy / pandas
-
-This is a senior-level course assignment
 
 🚀 Running the Code
 python rnn.py
